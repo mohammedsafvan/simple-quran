@@ -33,6 +33,25 @@ class _ViewScreenState extends State<ViewScreen> {
               physics: ScrollPhysics(),
               child: Column(
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        '${widget.surahNumber!}',
+                        style: TextStyle(fontSize: 20),
+                      ),
+                      SizedBox(
+                        width: 20,
+                      ),
+                      Text(
+                        quran.getSurahName(widget.surahNumber!),
+                        style: TextStyle(fontSize: 20),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    color: Colors.black,
+                  ),
                   widget.surahNumber! == 1 || widget.surahNumber == 9
                       ? SizedBox(
                           height: 10,
