@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## Familiarizing with flutter so:
+## Familiarizing with flutter:
 A simple quran app, You can increase the fontsize with double Tap and decrease with long press
 
 ## Credits
